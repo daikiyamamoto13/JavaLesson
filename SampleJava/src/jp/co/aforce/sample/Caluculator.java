@@ -18,6 +18,7 @@ public class Caluculator {
 		Question5();
 		Question6();
 		Question7();
+		Question8();
 	}
 	public  static void DoubleInteger() {
 	        int num = 5;                   
@@ -66,6 +67,15 @@ public class Caluculator {
 			} else {
 				System.out.println("0ではありません");
 			}
+	}
+	
+	public static void Question8() {
+			int num = -5;
+			if (num < 0) {
+				System.out.println("負の数です");
+			 } else {
+				 System.out.println("負の数ではありません");
+			 }
 	}
 }
 
